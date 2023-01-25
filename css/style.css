@@ -1,0 +1,140 @@
+body{
+    width: 99%;
+    margin: auto;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+    padding: 0.5em;
+    box-shadow: 2px 3px 5px #111111;
+}
+img{
+    width: 3em;
+    border-radius: 20%;
+}
+.col-md-8{
+    width: 44%;
+    margin-left: 190px;
+}
+.ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ul li{
+    display: inline-block;
+}
+.ul li a{
+    color: black;
+    padding: 15px 10px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ul li a:hover{
+    background-color: aquamarine;
+}
+#banner{
+    background: url(../images/m-6.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+}
+.banner-title{
+    padding-top: 4em;
+}
+.banner-title h1{
+    background: rgb(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner-title p.lead{
+    color: #111111;
+    background: rgba(255, 235, 205, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+.container section{
+    width: 79em;
+    margin: auto;
+}
+.sction-head{
+    text-align: center;
+    padding-top: 1.5em;
+}
+.sction-head:after{
+    background: blanchedalmond;
+    content: "";
+    display: block;
+    width: 7em;
+    height: 3px;
+    margin: 20px auto;
+}
+.service-box{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.testimonials{
+    color: black;
+    background: url(../images/m-1.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px;
+    position: relative;
+    font-family: water Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.testimonials:before{
+    background: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+}
+.testimonials img{
+    border-radius: 50px;
+}
+.new-post h3{
+    color: blanchedalmond;
+    font-size: 1.3rem;
+    margin-top: 7px;
+    padding: 5px 0;
+}
+.footer-sidebar{
+    margin-top: 30px;
+    color: #fff;
+    background-color: #34495e;
+    padding: 25px 0;
+}
+.li{
+    list-style: none;
+}
+.li a{
+    color: #fff;
+}
+.open{
+    margin-left: 30px;
+}
+.footer-grid h4:after{
+    content: "";
+    background: #ffffff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer{
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px 0;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 7px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px #1111;
+}
